@@ -1,36 +1,46 @@
 {
-  "name": "PL_practica2",
+  "name": "localstorage-jquery-underscore-express-sass-heroku-equipo-com",
   "version": "1.0.0",
-  "description": "Analizador de cadenas csv usando AJAX",
-  "main": "csv.js",
+  "description": "Prática de Procesadores de Lenguajes",
+  "main": "main.js",
   "scripts": {
-    "test": "firefox tests/index.html"
+    "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
-    "url": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    "url": "git+https://github.com/alu0100825893/localstorage-jquery-underscore-express-sass-heroku-equipo-com.git"
   },
-  "keywords": [
-    "csv"
+  "author": {
+    "name": "Carlos Troyano Carmona"
+  },
+  "contributors": [
+    {
+      "name": "Oscar Catari Gutierrez",
+      "email": "alu0100825893@ull.edu.es"
+    },
+    {
+      "name": "Miguel Castro Caraballo",
+      "email": "alu0100886870@ull.edu.es"
+    }
   ],
-  "author": XXXXXXXXXX
-  "contributors": [],
   "license": "ISC",
   "bugs": {
-    "url": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    "url": "https://github.com/alu0100825893/localstorage-jquery-underscore-express-sass-heroku-equipo-com/issues"
   },
-  "homepage": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  "homepage": "https://github.com/alu0100825893/localstorage-jquery-underscore-express-sass-heroku-equipo-com#readme",
   "dependencies": {
-	"jquery": "*",
-    "underscore": "*",
-	"express": "~3.2.6",
-    "ejs": "*",
-    "body-parser": "~1.12.0",
-    "express-ejs-layouts": "~1.1.0"
-  },
-  "engines": {
-    "node": XXXXX
   },
   "devDependencies": {
-  }
+    "chai": "*",
+    "karma": "~0.12",
+    "karma-chai": "^0.1.0",
+    "karma-firefox-launcher": "0.1.0",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",  
+    "mocha": "*",
+    "phantomjs-prebuilt": "^2.1.7"
+  },
+  "plugins": [
+    "karma-firefox-launcher"
+  ]
 }

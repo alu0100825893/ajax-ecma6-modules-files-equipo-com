@@ -1,40 +1,34 @@
-# Práctica 2: Comma separated values (CSV) with AJAX
+[![Build Status](https://travis-ci.org/alu0100825893/localstorage-jquery-underscore-express-sass-heroku-equipo-com.svg?branch=gh-pages)](https://travis-ci.org/alu0100825893/localstorage-jquery-underscore-express-sass-heroku-equipo-com)
 
-## jQuery.get( url [, data ] [, success ] [, dataType ] )
-* url
-  * Type: String
-  * A string containing the URL to which the request is sent.
-* data
-  * Type: PlainObject or String
-  * A plain object or string that is sent to the server with the request.
-* success
-  * Type: Function( PlainObject data, String textStatus, jqXHR jqXHR )
-  * A callback function that is executed if the request succeeds. 
-    Required if `dataType` is provided, but you can use `null` or `jQuery.noop` as a placeholder.
-* dataType
-  * Type: String
-  * The type of data expected from the server. Default: Intelligent Guess (xml, json, script, text, html).
+#ETSII ULL Grado de Informatica
 
-## jQuery.get( [settings ] )
-* settings
-  * Type: PlainObject
-  * A set of key/value pairs that configure the Ajax request. 
-  * All properties except for `url` are optional. 
-  * A default can be set for any option with `$.ajaxSetup()`.
+* [Página en Github Carlos](https://ctc87.github.io/)
+* [Página en Github Oscar](https://alu0100825893.github.io/)
+* [Página en Github Miguel](https://alu0100886870.github.io/)
+* [Página de la asignatura PL Carlos](http://ctc87.github.io/Practicas_PL/)
+* [Página de la asignatura PL Oscar](https://alu0100825893.github.io/)
+* [Página de la asignatura PL Miguel](https://alu0100886870.github.io/pl.html)
+* [Repositorio](https://github.com/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-equipo-com)
+* [Aplicación](http://alu0100825893.github.io/localstorage-jquery-underscore-express-sass-heroku-equipo-com)
+* [Fork-Con los Issues](https://github.com/alu0100825893/localstorage-jquery-underscore-express-sass-heroku-equipo-com)
+* [Test con encubrimiento](http://alu0100825893.github.io/localstorage-jquery-underscore-express-sass-heroku-equipo-com/tests/index.html)
+* [Despliegue en heroku](https://aqueous-bastion-58261.herokuapp.com/)
 
-This is a shorthand Ajax function, which is equivalent to:
 
-```javascript
-$.ajax({
-  url: url,
-  data: data,
-  success: success,
-  dataType: dataType
-});
-```
+# Práctica PL.
 
-The success callback function is passed the returned data, which will be an XML root element, text string, JavaScript file, or JSON object, depending on the MIME type of the response. It is also passed the text status of the response.
+####Comma Separated Values
 
-# Heroku 
-https://cvsajax.herokuapp.com/
+* Use SASS para generar el CSS
+* Los templates deben hacerse usando Underscore y el truco del elemento script en el HTML
+* Se debe usar locaStorage para almacenar las últimas entradas
+* Añada pruebas usando Mocha y Chai
+* Use Karma para la ejecución de las tareas
+* Use Gulp para la gestión de las tareas
+* Haga un análisis de cubrimiento usando Blanket
+* Despliegue las pruebas en Travis
+* Despliegue la aplicación en Heroku usando Express.JS
 
+##### Otros enlaces
+* Página de la asignatura (ULL): [Procesadores de Lenguaje](https://campusvirtual.ull.es/1516/course/view.php?id=178)
+* Página de la práctica (ULL): [Descripción de la práctica: Comma Separated Values](https://campusvirtual.ull.es/1516/mod/page/view.php?id=187374)
